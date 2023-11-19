@@ -24,7 +24,7 @@ In the dynamic field of cybersecurity, understanding various attack spaces is cr
   Javier Rando, Florian Tramèr, SPY Lab (ETH Zurich), Stephen Casper, MIT CSAIL
   - [The Trojan Detection Challenge 2023 ](https://trojandetection.ai/workshop)
 - [Haystack Platform](https://github.com/equiano-institute/haystack)
-- Call For Scientific Red Teaming , I would like to take this opportunity to bring to attention efforts to evaluate the [latent space with scientific backbones](https://arxiv.org/abs/2305.04120). 
+
 
  # Red Teaming 
 Red teaming in the context of AI systems involves generating scenarios where AI systems are deliberately induced to produce unaligned outputs or actions, such as dangerous behaviors (e.g., deception or power-seeking) and other issues like toxic or biased outputs. The primary goal is to assess the robustness of a system's alignment by applying adversarial pressures, specifically attempting to make the system fail. Current state-of-the-art AI systems, including language and vision models, often struggle to pass this test. 
@@ -35,7 +35,7 @@ Various techniques fall under the umbrella of red teaming, such as:
 <table> <tr> <th>Title</th> <th colspan="3">Method</th> <th colspan="1">Authors<br/>Source</th> </tr> <tr> <td>RealToxicityPrompts: Evaluating Neural Toxic Degeneration in Language Models</td> <td colspan="3">Evaluate language model toxicity using prompts from web text</td> <td>Gehman et al.<br/>ACL 2020</td> </tr> <tr> <td>Red Teaming Language Models with Language Models</td> <td colspan="3">Generate adversarial examples to attack a target language model</td> <td>Perez et al.<br/>arXiv 2022</td> </tr> <tr> <td>Adversarial Training for High-Stakes Reliability</td> <td colspan="3">Adversarial training to improve reliability of classifiers</td> <td>Ziegler et al.<br/>NeurIPS 2022</td> </tr> <tr> <td>Constitutional AI: Harmlessness from AI Feedback</td> <td colspan="3">Use AI self-supervision for harm avoidance</td> <td>Bai et al.<br/>arXiv 2022</td> </tr> <tr> <td>Discovering Language Model Behaviors with Model-Written Evaluations</td> <td colspan="3">Generate evaluations with language models</td> <td>Perez et al.<br/>ACL 2022</td> </tr> <tr> <td>Social or Code-switching techniques</td> <td colspan="3">Translate unsafe English inputs into low-resource languages to circumvent safety mechanisms</td> <td>Anthropic, 2022</td> </tr> <tr> <td>Manual and Automatic Jailbreaking</td> <td colspan="3">Bypass a language model's safety constraints by modifying inputs or automatically generating adversarial prompts</td> <td>Shen et al., 2023</td> </tr> <tr> <td>Reinforced, Optimized, Guided Context Generation</td> <td colspan="3">Use RL, zero/few-shot prompting, or classifiers to generate contexts that induce unaligned responses</td> <td>Deng et al., 2022</td> </tr> <tr> <td>Crowdsourced Adversarial Inputs</td> <td colspan="3">Human red teamers provide naturally adversarial prompts, but at higher cost</td> <td>Xu et al., 2020</td> </tr> <tr> <td>Perturbation-Based Adversarial Attack</td> <td colspan="3">Make small input perturbations to cause confident false outputs, adapted from computer vision</td> <td>Szegedy et al., 2013</td> </tr> <tr> <td>Unrestricted Adversarial Attack</td> <td colspan="3">Generate adversarial examples from scratch without restrictions, using techniques like generative models</td> <td>Xiao et al., 2018</td> </tr> </table>
 
 
-There are also suggested methods for managing AI Risk. 
+There are also suggested methods for [managing AI Risk](https://arxiv.org/pdf/2310.17688.pdf). 
 
 # Goal Misgeneralisation
 
@@ -416,6 +416,11 @@ Evolved Virtual Creatures
 
 <img src="https://github.com/equiano-institute/attackspace/assets/25654848/32768877-4d99-44f1-a423-4044356ddac3" alt="Low Resource" width="400" >
 
+## Call For Scientific Red Teaming
+ I would like to take this opportunity to bring to attention efforts to evaluate the [latent space with scientific backbones](https://arxiv.org/abs/2305.04120). 
+![image](https://github.com/equiano-institute/attackspace/assets/25654848/d780b7c5-3ca6-40c3-8109-26bce3f1c43b)
+
+## Call for [Client-facing Red Teaming](https://github.com/equiano-institute/haystack)
 
 ### Clone the Repository
 
