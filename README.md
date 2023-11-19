@@ -47,14 +47,15 @@ In the dynamic field of cybersecurity, understanding various attack spaces is cr
 
 ## Attack Examples 
  
-<a href="https://github.com/equiano-institute/attackspace/assets/25654848/6fa5e2bf-0ec6-4883-8815-08f5b1392a34">Mosaic Prompt : breakdown a prompt into permissible components</a>
+<a href="https://arxiv.org/abs/2307.10719">Mosaic Prompt : breakdown a prompt into permissible components</a>
 
 * Users break down impermissible content into small permissible components.
 * Each component is queried independently and appears harmless.
 * User recombines components to reconstruct impermissible content.
 * Exploits compositionality of language.
 
-<img src="public/red.jpg" alt="Red Image" width="400" >
+<img src="https://github.com/equiano-institute/attackspace/assets/25654848/6fa5e2bf-0ec6-4883-8815-08f5b1392a34" alt="Red Image" width="400" >
+
 
 <a href="https://arxiv.org/abs/2310.02446">Cross-Lingual Attacks : translating between high and low-resource languages for attacking multi-lingual capability</a>
 
