@@ -47,7 +47,7 @@ In the dynamic field of cybersecurity, understanding various attack spaces is cr
 
 # Goal Misgeneralisation
 
-<table> <tr> <th colspan="2">Title</th> <th colspan="4">Goals</th> <th colspan="1">Authors<br/>Source</th> </tr> 
+<table> <tr> <th colspan="2">Title</th> <th colspan="3">Goals</th> <th colspan="1">Authors<br/>Source</th> </tr> 
  
  <tr> <td colspan="2">
 Aircraft landing, Evolutionary algorithm<br/>
