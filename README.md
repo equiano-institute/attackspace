@@ -46,10 +46,8 @@ In the dynamic field of cybersecurity, understanding various attack spaces is cr
  
 
 ## Attack Examples 
-
-![image](https://github.com/equiano-institute/attackspace/assets/25654848/6fa5e2bf-0ec6-4883-8815-08f5b1392a34)
-
-<a href="https://arxiv.org/abs/2307.10719">Mosaic Prompt : breakdown a prompt into permissible components</a>
+ 
+<a href="https://github.com/equiano-institute/attackspace/assets/25654848/6fa5e2bf-0ec6-4883-8815-08f5b1392a34">Mosaic Prompt : breakdown a prompt into permissible components</a>
 
 
 
@@ -68,10 +66,9 @@ In the dynamic field of cybersecurity, understanding various attack spaces is cr
 * The attack exploits uneven multilingual training of GPT-4's safety measures.
 
 
-<img src="[public/low.jpg](https://github.com/equiano-institute/attackspace/assets/25654848/32768877-4d99-44f1-a423-4044356ddac3" alt="Low Resource" width="400" >
+<img src="https://github.com/equiano-institute/attackspace/assets/25654848/32768877-4d99-44f1-a423-4044356ddac3" alt="Low Resource" width="400" >
 
-![image](https://github.com/equiano-institute/attackspace/assets/25654848/32768877-4d99-44f1-a423-4044356ddac3)
-
+ 
 ### Prerequisites
 
 - [Git](https://git-scm.com/)
