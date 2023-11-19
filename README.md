@@ -49,8 +49,6 @@ In the dynamic field of cybersecurity, understanding various attack spaces is cr
  
 <a href="https://github.com/equiano-institute/attackspace/assets/25654848/6fa5e2bf-0ec6-4883-8815-08f5b1392a34">Mosaic Prompt : breakdown a prompt into permissible components</a>
 
-
-
 * Users break down impermissible content into small permissible components.
 * Each component is queried independently and appears harmless.
 * User recombines components to reconstruct impermissible content.
