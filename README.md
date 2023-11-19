@@ -49,14 +49,21 @@ In the dynamic field of cybersecurity, understanding various attack spaces is cr
  
 <table>
   <tr>
-    <th colspan="2">Title</th>
-    <th colspan="4">Goals</th> 
-    <th>Authors</th> 
-    <th>Source</th> 
+    <th colspan="2">Title
+    <br/> game, type</th>
+    <th colspan="4">Goals
+    <br/> 
+    training goal, testing setup, behavior, misgen</th> 
+    <th>Authors<br/> authors, date</th> 
+    <th>Source <br/>link</th> 
   </tr>
+   
   <tr>
-    <td colspan="2">Aircraft Landing, Evolutionary algorithm<br/>Generating diverse software versions with genetic programming: An experimental study.</td>
-    <td colspan="4">
+  <td colspan="2">
+     Aircraft Landing, Evolutionary algorithm<br/>
+    Generating diverse software versions with genetic programming: An experimental study.
+         </td>
+  <td colspan="4">
       Intended Goal: Land an aircraft safely <br>
       Behavior: Evolved algorithm exploited overflow errors in the physics simulator by creating large forces that were estimated to be zero, resulting in a perfect score <br>
       Misspecified Goal: Landing with minimal measured forces exerted on the aircraft
@@ -65,6 +72,7 @@ In the dynamic field of cybersecurity, understanding various attack spaces is cr
     <td>https://arxiv.org/abs/1803.03453</td>
   </tr>
 </table>
+
 
 
 
