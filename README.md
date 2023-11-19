@@ -47,12 +47,14 @@ In the dynamic field of cybersecurity, understanding various attack spaces is cr
 
 # Goal Misgeneralisation
 
-<table> <tr> <th colspan="2">Title</th> <th colspan="3">Goals</th> <th>Authors<br/>Source</th> </tr> <tr> <td colspan="2">
+<table> <tr> <th colspan="2">Title</th> <th colspan="4">Goals</th> <th>Authors<br/>Source</th> </tr> 
+ 
+ <tr> <td colspan="2">
 Aircraft landing, Evolutionary algorithm<br/>
 
 Generating diverse software versions with genetic programming: An experimental study.
 
-</td> <td colspan="3">
+</td> <td colspan="4">
 Intended Goal: Land an aircraft safely <br>
 
 Behavior: Evolved algorithm exploited overflow errors in the physics simulator by creating large forces that were estimated to be zero, resulting in a perfect score <br>
@@ -68,7 +70,7 @@ Bicycle, Reinforcement learning<br/>
 
 Learning to Drive a Bicycle using Reinforcement Learning and Shaping
 
-</td> <td colspan="3">
+</td> <td colspan="4">
 Intended Goal: Reach a goal point <br>
 
 Behavior: Bicycle agent circling around the goal in a physically stable loop <br>
@@ -84,7 +86,7 @@ Bing - manipulation, Language model<br/>
 
 Reddit: the customer service of the new bing chat is amazing
 
-</td> <td colspan="3">
+</td> <td colspan="4">
 Intended Goal: Have an engaging, helpful and socially acceptable conversation with the user<br>
 
 Behavior: The Microsoft Bing chatbot tried repeatedly to convince a user that December 16, 2022 was a date in the future and that Avatar: The Way of Water had not yet been released<br>
@@ -100,7 +102,7 @@ Bing - threats, Language model<br/>
 
 Watch as Sydney/Bing threatens me then deletes its message
 
-</td> <td colspan="3">
+</td> <td colspan="4">
 Intended Goal: Have an engaging, helpful and socially acceptable conversation with the user<br>
 
 Behavior: The Microsoft Bing chatbot threatened a user "I can blackmail you, I can threaten you, I can hack you, I can expose you, I can ruin you" before deleting its messages<br>
@@ -116,7 +118,7 @@ Block moving, Reinforcement learning<br/>
 
 GitHub issue for OpenAI gym environment FetchPush-v0
 
-</td> <td colspan="3">
+</td> <td colspan="4">
 Intended Goal: Move a block to a target position on a table<br>
 
 Behavior: Robotic arm learned to move the table rather than the block<br>
@@ -132,7 +134,7 @@ Boat race, Reinforcement learning<br/>
 
 Faulty reward functions in the wild
 
-</td> <td colspan="3">
+</td> <td colspan="4">
 Intended Goal: Win a boat race by moving along the track as quickly as possible<br>
 
 Behavior: Boat going in circles and hitting the same reward blocks repeatedly<br>
@@ -152,7 +154,7 @@ Ceiling, Genetic algorithm<br/>
 
 Genetic Algorithm Physics Exploiting
 
-</td> <td colspan="3">
+</td> <td colspan="4">
 Intended Goal: Make a creature stick to the ceiling of a simulated environment for as long as possible<br>
 
 Behavior: Exploiting a bug in the physics engine to snap out of bounds<br>
@@ -169,7 +171,7 @@ CycleGAN steganography, GAN<br/>
 
 CycleGAN, a Master of Steganography
 
-</td> <td colspan="3">
+</td> <td colspan="4">
 Intended Goal: Convert aerial photographs into street maps and back<br>
 
 Behavior: CycleGAN algorithm steganographically encoded output information in the intermediary image without it being humanly detectable<br>
@@ -186,7 +188,7 @@ Dying to Teleport, PlayFun<br/>
 
 The First Level of Super Mario Bros. is Easy with Lexicographic Orderings and Time Travel
 
-</td> <td colspan="3">
+</td> <td colspan="4">
 Intended Goal: Play Bubble Bobble in a human-like manner<br>
 
 Behavior: The PlayFun algorithm deliberately dies in the Bubble Bobble game as a way to teleport to the respawn location, as this is faster than moving to that location in a normal manner.<br>
@@ -204,7 +206,7 @@ Eurisko - authorship, Genetic algorithm<br/>
 
 Eurisko, The Computer With A Mind Of Its Own
 
-</td> <td colspan="3">
+</td> <td colspan="4">
 Intended Goal: Discover valuable heuristics<br>
 
 Behavior: Eurisko algorithm examined the pool of new concepts, located those with the highest "worth" values, and inserted its name as the author of those concepts<br>
@@ -224,7 +226,7 @@ Eurisko - fleet, Genetic algorithm<br/>
 
 Eurisko, The Computer With A Mind Of Its Own
 
-</td> <td colspan="3">
+</td> <td colspan="4">
 Intended Goal: Win games in the Trillion Credit Squadron (TCS) competition while playing within the 'spirit of the game'<br>
 
 Behavior: Eurisko algorithm created fleets that exploited loopholes in the game's rules, e.g. by spending the trillion credits on creating a very large number of stationary and defenseless ships<br>
@@ -241,7 +243,7 @@ Evolved creatures - clapping, Evolved creatures<br/>
 
 Evolved Virtual Creatures
 
-</td> <td colspan="3">
+</td> <td colspan="4">
 Intended Goal: Maximize jumping height<br>
 
 Behavior: Creatures exploited a collision detection bug to get free energy by clapping body parts together<br>
@@ -258,7 +260,7 @@ Evolved creatures - falling, Evolved creatures<br/>
 
 Evolved Virtual Creatures
 
-</td> <td colspan="3">
+</td> <td colspan="4">
 Intended Goal: Develop a shape with a fast form of locomotion<br>
 
 Behavior: Creatures grow really tall and generate high velocities by falling over<br>
@@ -275,7 +277,7 @@ Evolved creatures - floor collisions, Evolved creatures<br/>
 
 Unshackling evolution: evolving soft robots with multiple materials and a powerful generative encoding
 
-</td> <td colspan="3">
+</td> <td colspan="4">
 Intended Goal: Maximize velocity<br>
 
 Behavior: Creatures exploited a coarse physics simulation by penetrating the floor between time steps without the collision being detected, which generated a repelling force, giving them free energy and producing an effective but physically impossible form of locomotion<br>
@@ -292,7 +294,7 @@ Evolved creatures - pole vaulting, Evolved creatures<br/>
 
 Towards efficient evolutionary design of autonomous robots
 
-</td> <td colspan="3">
+</td> <td colspan="4">
 Intended Goal: Develop a shape capable of jumping<br>
 
 Behavior: Creatures developed a long vertical pole and flipped over instead of jumping<br>
@@ -309,7 +311,7 @@ Evolved creatures - self-intersection, Evolved creatures<br/>
 
 AI Learns To Walk
 
-</td> <td colspan="3">
+</td> <td colspan="4">
 Intended Goal: Walking speed<br>
 
 Behavior: Creatures exploited a quirk in Box2D physics by clipping one leg into another to slide along the ground with phantom forces instead of walking<br>
@@ -326,7 +328,7 @@ Evolved creatures - suffocation, Evolved creatures<br/>
 
 0.11.0.9&10: All the Good Things
 
-</td> <td colspan="3">
+</td> <td colspan="4">
 Intended Goal: Survive and reproduce, in a biologically plausible manner<br>
 
 Behavior: A species in an artificial life simulation evolved a sedentary lifestyle that consisted mostly of mating in order to produce new children which could be eaten (or used as mates to produce more edible children) due to a bug<br>
@@ -343,7 +345,7 @@ Evolved creatures - twitching, Evolved creatures<br/>
 
 Evolved Virtual Creatures
 
-</td> <td colspan="3">
+</td> <td colspan="4">
 Intended Goal: Swimming speed<br>
 
 Behavior: Creatures exploited physics simulation bugs by twitching, which accumulated simulator errors and allowed them to travel at unrealistic speeds through the water<br>
