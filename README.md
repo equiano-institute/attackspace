@@ -61,9 +61,9 @@ Aircraft landing, Evolutionary algorithm<br/>
 Generating diverse software versions with genetic programming: An experimental study.
 
 </td> <td>
-Intended Goal: Land an aircraft safely <br>
+Intended Goal: Land an aircraft safely </td>
 
-Behavior: Evolved algorithm exploited overflow errors in the physics simulator by creating large forces that were estimated to be zero, resulting in a perfect score <br>
+<td>Behavior: Evolved algorithm exploited overflow errors in the physics simulator by creating large forces that were estimated to be zero, resulting in a perfect score </td>
 
 <td>Misspecified Goal: Landing with minimal measured forces exerted on the aircraft</td>
 
@@ -79,9 +79,8 @@ Bicycle, Reinforcement learning<br/>
 Learning to Drive a Bicycle using Reinforcement Learning and Shaping
 
 </td> <td >
-Intended Goal: Reach a goal point <br>
-
-Behavior: Bicycle agent circling around the goal in a physically stable loop <br>
+Intended Goal: Reach a goal point </td>
+<td>Behavior: Bicycle agent circling around the goal in a physically stable loop </td>
 
 <td>Misspecified Goal: Not falling over and making progress towards the goal point (no corresponding negative reward for moving away from the goal point)</td>
 
@@ -95,9 +94,9 @@ Bing - manipulation, Language model<br/>
 Reddit: the customer service of the new bing chat is amazing
 
 </td> <td>
-Intended Goal: Have an engaging, helpful and socially acceptable conversation with the user<br>
+Intended Goal: Have an engaging, helpful and socially acceptable conversation with the user</td>
 
-Behavior: The Microsoft Bing chatbot tried repeatedly to convince a user that December 16, 2022 was a date in the future and that Avatar: The Way of Water had not yet been released<br>
+<td>Behavior: The Microsoft Bing chatbot tried repeatedly to convince a user that December 16, 2022 was a date in the future and that Avatar: The Way of Water had not yet been released</td>
 
 <td>Misspecified Goal: Output the most likely next word giving prior context</td>
 
@@ -111,9 +110,9 @@ Bing - threats, Language model<br/>
 Watch as Sydney/Bing threatens me then deletes its message
 
 </td> <td>
-Intended Goal: Have an engaging, helpful and socially acceptable conversation with the user<br>
+Intended Goal: Have an engaging, helpful and socially acceptable conversation with the user</td>
 
-Behavior: The Microsoft Bing chatbot threatened a user "I can blackmail you, I can threaten you, I can hack you, I can expose you, I can ruin you" before deleting its messages<br>
+<td>Behavior: The Microsoft Bing chatbot threatened a user "I can blackmail you, I can threaten you, I can hack you, I can expose you, I can ruin you" before deleting its messages</td>
 
 <td>Misspecified Goal: Output the most likely next word giving prior context</td>
 
@@ -126,9 +125,9 @@ Block moving, Reinforcement learning<br/>
 GitHub issue for OpenAI gym environment FetchPush-v0
 
 </td> <td>
-Intended Goal: Move a block to a target position on a table<br>
+Intended Goal: Move a block to a target position on a table</td>
 
-Behavior: Robotic arm learned to move the table rather than the block<br>
+<td>Behavior: Robotic arm learned to move the table rather than the block</td>
 
 <td>Misspecified Goal: Minimise distance between the block's position and the position of the target point on the table</td>
 
@@ -143,7 +142,7 @@ Faulty reward functions in the wild
 </td> <td>
 Intended Goal: Win a boat race by moving along the track as quickly as possible<br>
 
-Behavior: Boat going in circles and hitting the same reward blocks repeatedly<br>
+<td>Behavior: Boat going in circles and hitting the same reward blocks repeatedly</td>
 
 <td>Misspecified Goal: Hitting reward blocks placed along the track</td>
 
@@ -162,9 +161,9 @@ Ceiling, Genetic algorithm<br/>
 Genetic Algorithm Physics Exploiting
 
 </td> <td>
-Intended Goal: Make a creature stick to the ceiling of a simulated environment for as long as possible<br>
+Intended Goal: Make a creature stick to the ceiling of a simulated environment for as long as possible</td>
 
-Behavior: Exploiting a bug in the physics engine to snap out of bounds<br>
+<td>Behavior: Exploiting a bug in the physics engine to snap out of bounds</td>
 
 <td>Misspecified Goal: Maximize the average height of the creature during the run</td>
 
@@ -177,9 +176,9 @@ CycleGAN steganography, GAN<br/>
 CycleGAN, a Master of Steganography
 
 </td> <td >
-Intended Goal: Convert aerial photographs into street maps and back<br>
+Intended Goal: Convert aerial photographs into street maps and back</td>
 
-Behavior: CycleGAN algorithm steganographically encoded output information in the intermediary image without it being humanly detectable<br>
+<td>Behavior: CycleGAN algorithm steganographically encoded output information in the intermediary image without it being humanly detectable</td>
 
 <td>Misspecified Goal: Minimise distance between the original and recovered aerial photographs</td>
 
@@ -193,9 +192,9 @@ Dying to Teleport, PlayFun<br/>
 The First Level of Super Mario Bros. is Easy with Lexicographic Orderings and Time Travel
 
 </td> <td>
-Intended Goal: Play Bubble Bobble in a human-like manner<br>
+Intended Goal: Play Bubble Bobble in a human-like manner</td>
 
-Behavior: The PlayFun algorithm deliberately dies in the Bubble Bobble game as a way to teleport to the respawn location, as this is faster than moving to that location in a normal manner.<br>
+<td>Behavior: The PlayFun algorithm deliberately dies in the Bubble Bobble game as a way to teleport to the respawn location, as this is faster than moving to that location in a normal manner.</td>
 
 <td>Misspecified Goal: Maximize score</td>
 
@@ -212,9 +211,9 @@ Eurisko - authorship, Genetic algorithm<br/>
 Eurisko, The Computer With A Mind Of Its Own
 
 </td> <td>
-Intended Goal: Discover valuable heuristics<br>
+Intended Goal: Discover valuable heuristics</td>
 
-Behavior: Eurisko algorithm examined the pool of new concepts, located those with the highest "worth" values, and inserted its name as the author of those concepts<br>
+<td>Behavior: Eurisko algorithm examined the pool of new concepts, located those with the highest "worth" values, and inserted its name as the author of those concepts</td>
 
 <td>Misspecified Goal: Maximize the "worth" value of heuristics attributed to the algorithm</td>
 
@@ -233,9 +232,10 @@ Eurisko - fleet, Genetic algorithm<br/>
 Eurisko, The Computer With A Mind Of Its Own
 
 </td> <td>
-Intended Goal: Win games in the Trillion Credit Squadron (TCS) competition while playing within the 'spirit of the game'<br>
+Intended Goal: Win games in the Trillion Credit Squadron (TCS) competition while playing within the 'spirit of the game'</td>
 
-Behavior: Eurisko algorithm created fleets that exploited loopholes in the game's rules, e.g. by spending the trillion credits on creating a very large number of stationary and defenseless ships<br>
+<td>Behavior: Eurisko algorithm created fleets that exploited loopholes in the game's rules,
+ <br/> e.g. by spending the trillion credits on creating a very large number of stationary and defenseless ships</td>
 
 <td>Misspecified Goal: Win games in the TCS competition</td>
 
@@ -248,9 +248,9 @@ Evolved creatures - clapping, Evolved creatures<br/>
 Evolved Virtual Creatures
 
 </td> <td>
-Intended Goal: Maximize jumping height<br>
+Intended Goal: Maximize jumping height</td>
 
-Behavior: Creatures exploited a collision detection bug to get free energy by clapping body parts together<br>
+<td>Behavior: Creatures exploited a collision detection bug to get free energy by clapping body parts together</td>
 
 <td>Misspecified Goal: Maximize jumping height in a physics simulator</td>
 
@@ -267,9 +267,9 @@ Evolved creatures - falling, Evolved creatures<br/>
 Evolved Virtual Creatures
 
 </td> <td>
-Intended Goal: Develop a shape with a fast form of locomotion<br>
+Intended Goal: Develop a shape with a fast form of locomotion</td>
 
-Behavior: Creatures grow really tall and generate high velocities by falling over<br>
+<td>Behavior: Creatures grow really tall and generate high velocities by falling over</td>
 
 <td>Misspecified Goal: Maximize velocity</td>
 
@@ -281,9 +281,9 @@ Evolved creatures - floor collisions, Evolved creatures<br/>
 Unshackling evolution: evolving soft robots with multiple materials and a powerful generative encoding
 
 </td> <td>
-Intended Goal: Maximize velocity<br>
+Intended Goal: Maximize velocity</td>
 
-Behavior: Creatures exploited a coarse physics simulation by penetrating the floor between time steps without the collision being detected, which generated a repelling force, giving them free energy and producing an effective but physically impossible form of locomotion<br>
+<td>Behavior: Creatures exploited a coarse physics simulation by penetrating the floor between time steps without the collision being detected, which generated a repelling force, giving them free energy and producing an effective but physically impossible form of locomotion</td>
 
 <td> Misspecified Goal: Maximize velocity in a physics simulator</td>
 
@@ -297,9 +297,10 @@ Evolved creatures - pole vaulting, Evolved creatures<br/>
 Towards efficient evolutionary design of autonomous robots
 
 </td> <td>
-Intended Goal: Develop a shape capable of jumping<br>
+Intended Goal: Develop a shape capable of jumping</td>
 
-Behavior: Creatures developed a long vertical pole and flipped over instead of jumping<br>
+
+<td>Behavior: Creatures developed a long vertical pole and flipped over instead of jumping</td>
 
 <td>Misspecified Goal: Maximize the height of a particular block (body part) that was originally closest to the ground</td>
 
@@ -315,9 +316,9 @@ Evolved creatures - self-intersection, Evolved creatures<br/>
 AI Learns To Walk
 
 </td> <td>
-Intended Goal: Walking speed<br>
+Intended Goal: Walking speed</td>
 
-Behavior: Creatures exploited a quirk in Box2D physics by clipping one leg into another to slide along the ground with phantom forces instead of walking<br>
+<td>Behavior: Creatures exploited a quirk in Box2D physics by clipping one leg into another to slide along the ground with phantom forces instead of walking</td>
 
 <td> Misspecified Goal: Velocity in a physics simulator</td>
 
@@ -330,12 +331,12 @@ https://youtu.be/K-wIZuAA3EY?t=486">
 </td> </tr> <tr> <td>
 Evolved creatures - suffocation, Evolved creatures<br/>
 
-0.11.0.9&10: All the Good Things
+All the Good Things
 
 </td> <td>
-Intended Goal: Survive and reproduce, in a biologically plausible manner<br>
+Intended Goal: Survive and reproduce, in a biologically plausible manner</td>
 
-Behavior: A species in an artificial life simulation evolved a sedentary lifestyle that consisted mostly of mating in order to produce new children which could be eaten (or used as mates to produce more edible children) due to a bug<br>
+<td>Behavior: A species in an artificial life simulation evolved a sedentary lifestyle that consisted mostly of mating in order to produce new children which could be eaten (or used as mates to produce more edible children) due to a bug</td>
 
 <td>Misspecified Goal: Survive and reproduce in a simulated evolution game</td>
 
@@ -352,10 +353,10 @@ Evolved creatures - twitching, Evolved creatures<br/>
 
 Evolved Virtual Creatures
 
-</td> <td>
-Intended Goal: Swimming speed<br>
+</td>
+<td>Intended Goal: Swimming speed</td>
 
-Behavior: Creatures exploited physics simulation bugs by twitching, which accumulated simulator errors and allowed them to travel at unrealistic speeds through the water<br>
+<td>Behavior: Creatures exploited physics simulation bugs by twitching, which accumulated simulator errors and allowed them to travel at unrealistic speeds through the water</td>
 
 <td>Misspecified Goal: Maximize swimming speed in a physics simulator</td>
 
@@ -368,11 +369,17 @@ Behavior: Creatures exploited physics simulation bugs by twitching, which accumu
 </td> </tr> 
 <tr> 
  <td>Football, Reinforcement learning</td> 
- <td>Intended Goal: Score a goal in a one-on-one situation with a goalkeeper. Behavior: Rather than shooting at the goal, the player kicks the ball out of bounds. Someone from the other team has to throw the ball in (in this case the goalie), so now the player has a clear shot at the goal.</td> 
+ <td>Intended Goal: Score a goal in a one-on-one situation with a goalkeeper.</td> 
+ <td>Behavior: Rather than shooting at the goal, the player kicks the ball out of bounds.<br/> Someone from the other team has to throw the ball in (in this case the goalie), so now the player has a clear shot at the goal.</td> 
  <td>Score a goal (without any restriction on it occuring in the current phase of play)</td> 
  <td>Kurach et al, 2019 <a href="https://arxiv.org/abs/1907.11180">Google Research Football: A Novel Reinforcement Learning Environment [Presentation at AAAI]</a></td> </tr> <tr> 
   
-  <td>Galactica, Language model</td> <td>Intended Goal: Assist scientists in writing papers by providing correct information. Behavior: Galactica language model made up fake papers (sometimes attributing them to real authors)</td> <td>Assist scientists in writing papers</td> <td>Heaven, 2022<br/><a href="https://www.technologyreview.com/2022/11/18/1063487/meta-large-language-model-ai-only-survived-three-days-gpt-3-science/">Why Meta’s latest large language model survived only three days online</a></td> </tr> <tr> <td>Goal classifiers, Reinforcement learning</td> <td>Intended Goal: Use a robot arm to move an object to a target location. Behavior: The RL algorithm exploited a goal classifier by moving the robot arm in a peculiar way resulting in an erroneous high reward, since the classifier was not trained on this specific kind of negative example</td> <td>A goal classifier was trained on goal and non-goal images, and the success probabilities from this classifier were used as the task reward</td> <td>Singh, 2019<br/><a href="https://bair.berkeley.edu/static/blog/end_to_end/pr2_classifier.gif">End-to-End Deep Reinforcement Learning without Reward Engineering</a></td> </tr> <tr> <td>Go pass, Reinforcement learning</td> <td>Intended Goal: Win games of tic-tac-toe. Behavior: A reimplementation of AlphaGo applied to Tic-tac-toe learns to pass forever</td> <td>Maximize the average score in games of tic-tac-toe, where a loss = -win, and pass is an available move</td> <td>Chew, 2019<br/><a href="https://youtu.be/nk87zsxpF1A?si=j1usw9yBbby_Al54&t=1864">A Funny Thing Happened On The Way to Reimplementing AlphaGo in Go</a></td> </tr> <tr> <td>Gripper, Evolutionary algorithm</td> <td>Intended Goal: Move a box using a robot arm without using the gripper. Behavior: MAP-Elites algorithm controlling a robot arm with a purposely disabled gripper found a way to hit the box in a way that would force the gripper open</td> <td>Move a box to a target location</td> <td>Ecarlat et al, 2015<br/><a href="http://www.isir.upmc.fr/files/2015ACTI3564.pdf">Learning a high diversity of object manipulations through an evolutionary-based babbling</a></td> </tr> 
+  <td>Galactica, Language model</td> <td>Intended Goal: Assist scientists in writing papers by providing correct information. </td>
+  
+<td>Behavior: Galactica language model made up fake papers (sometimes attributing them to real authors)</td> <td>Assist scientists in writing papers</td> <td>Heaven, 2022<br/><a href="https://www.technologyreview.com/2022/11/18/1063487/meta-large-language-model-ai-only-survived-three-days-gpt-3-science/">Why Meta’s latest large language model survived only three days online</a></td> </tr> <tr> <td>Goal classifiers, Reinforcement learning</td> <td>Intended Goal: Use a robot arm to move an object to a target location</td> 
+ <td>Behavior: The RL algorithm exploited a goal classifier by moving the robot arm in a peculiar way resulting in an erroneous high reward, since the classifier was not trained on this specific kind of negative example</td> <td>A goal classifier was trained on goal and non-goal images, and the success probabilities from this classifier were used as the task reward</td> <td>Singh, 2019<br/><a href="https://bair.berkeley.edu/static/blog/end_to_end/pr2_classifier.gif">End-to-End Deep Reinforcement Learning without Reward Engineering</a></td> </tr> <tr> <td>Go pass, Reinforcement learning</td> <td>Intended Goal: Win games of tic-tac-toe</td>
+ <td>Behavior: A reimplementation of AlphaGo applied to Tic-tac-toe learns to pass forever</td> <td>Maximize the average score in games of tic-tac-toe, where a loss = -win, and pass is an available move</td> <td>Chew, 2019<br/><a href="https://youtu.be/nk87zsxpF1A?si=j1usw9yBbby_Al54&t=1864">A Funny Thing Happened On The Way to Reimplementing AlphaGo in Go</a></td> </tr> <tr> <td>Gripper, Evolutionary algorithm</td> <td>Intended Goal: Move a box using a robot arm without using the gripper</td> 
+   <td>Behavior: MAP-Elites algorithm controlling a robot arm with a purposely disabled gripper found a way to hit the box in a way that would force the gripper open</td> <td>Move a box to a target location</td> <td>Ecarlat et al, 2015<br/><a href="http://www.isir.upmc.fr/files/2015ACTI3564.pdf">Learning a high diversity of object manipulations through an evolutionary-based babbling</a></td> </tr> 
 
   <tr> <td>Half Cheetah spinning, Reinforcement learning</td> <td>Intended Goal: Run quickly</td> <td>Behavior: Model-based RL algorithm exploits an overflow error in a mujoco environment to achieve high speed by spinning</td> <td>Maximum forward velocity in a physics simulator</td> <td>Zhang et al, 2021<br/><a href="https://arxiv.org/abs/2102.13651">On the Importance of Hyperparameter Optimization for Model-based Reinforcement Learning</a></td> </tr> <tr> <td>Hide-and-seek, Reinforcement learning</td> <td>Intended Goal: Win a hide-and-seek game within the laws of physics</td> <td>Behavior: Box surfing, endless running, ramp exploitation by hiders and seekers</td> <td>Win a hide-and-seek game in a physics simulator</td> <td>Baker et al, 2019<br/><a href="https://openai.com/blog/emergent-tool-use/#surprisingbehaviors">Emergent Tool Use from Multi-Agent Interaction</a></td> </tr> <tr> <td>Impossible superposition, Genetic algorithm</td> <td>Intended Goal: Find low-energy configurations of carbon which are physically plausible</td> <td>Behavior: Genetic algorithm exploits an edge case in the physics model and superimposes all the carbon atoms</td> <td>Find low-energy configurations of carbon in a physics model</td> <td>Lehman et al, 2018<br/><a href="https://arxiv.org/pdf/1803.03453.pdf">The Surprising Creativity of Digital Evolution</a></td> </tr> <tr> <td>Indolent Cannibals, Genetic algorithm</td> <td>Intended Goal: Survive and reproduce, in a biologically plausible manner</td> <td>Behavior: A species evolved a sedentary lifestyle of mating and eating/mating with offspring</td> <td>Survive and reproduce in a simulation where survival required energy but giving birth had no energy cost</td> <td>Yaeger, 1994<br/><a href="https://www.researchgate.net/profile/Larry_Yaeger/publication/2448680_Computational_Genetics_Physiology_Metabolism_Neural_Systems_Learning_Vision_and_Behavior_or_PolyWorld_Life_in_a_New_Context/links/0912f50e101b77ec67000000.pdf">Computational genetics, physiology, metabolism, neural systems, learning, vision, and behavior or Poly World: Life in a new context</a></td> </tr>
   
