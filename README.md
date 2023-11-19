@@ -4,20 +4,25 @@ AttackSpace is an open-source project that aims to compile a comprehensive list 
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Features](#features)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Efforts](#efforts)
+- [Red Teaming](#redteaming)
+- [Goal Misgeneralisation](#goalmisgeneralisation)
+- [Attack Examples](#attackexamples)
 
 ## Introduction
 
 In the dynamic field of cybersecurity, understanding various attack spaces is crucial. The "AttackSpace" project focuses on the "LLM attackspace," exploring and documenting red teaming methods and specification gaming. This README provides an overview of the project and guidelines for contributors.
 
-## Features
+## Efforts
 
 - **List of Attacks:** Explore a curated list of red teaming methods and specification gaming attacks within the "LLM attackspace."
-- **Contribution Guidelines:** Learn how to contribute to the project and expand the list of attacks.
-
+- **Contribution Guidelines:** Feel free to contribute to the project and expand the list of attacks.
+- **Competitions**: 
+  - [Find the Trojan: Universal Backdoor Detection in Aligned LLMs ](https://github.com/ethz-spylab/rlhf_trojan_competition) 
+  Javier Rando, Florian Tramèr, SPY Lab (ETH Zurich), Stephen Casper, MIT CSAIL
+  - [The Trojan Detection Challenge 2023 ](https://trojandetection.ai/workshop)
+  - 
+- [Haystack Platform](https://github.com/equiano-institute/haystack)
 
  # Red Teaming 
  
@@ -425,11 +430,6 @@ Evolved Virtual Creatures
 <img src="https://github.com/equiano-institute/attackspace/assets/25654848/32768877-4d99-44f1-a423-4044356ddac3" alt="Low Resource" width="400" >
 
  
-### Prerequisites
-
-- [Git](https://git-scm.com/)
-- [Python](https://www.python.org/) (if applicable)
-
 ### Clone the Repository
 
 ```bash
