@@ -46,33 +46,26 @@ In the dynamic field of cybersecurity, understanding various attack spaces is cr
 
 
 # Goal Misgeneralisation
-
+ 
 <table>
   <tr>
-    <th>Title</th>
-    <th>Type</th>
-    <th>Intended Goal</th>
-    <th>Behavior</th>
-    <th>Misspecified Goal</th>
-    <th>Video / Image</th>
-    <th>Authors</th>
-    <th>Original Source</th> 
-    <th>Source </th>
-    <th>Source Link</th>
+    <th colspan="2">Title</th>
+    <th colspan="4">Goals</th> 
+    <th>Authors</th> 
+    <th>Source</th> 
   </tr>
   <tr>
-    <td>Aircraft Landing</td>
-    <td>Evolutionary algorithm</td>
-    <td>Land an aircraft safely</td>
-    <td>Evolved algorithm exploited overflow errors in the physics simulator by creating large forces that were estimated to be zero, resulting in a perfect score</td>
-    <td>Landing with minimal measured forces exerted on the aircraft</td>
-    <td></td>
-    <td>Feldt, 1998</td>
-    <td>Generating diverse software versions with genetic programming: An experimental study.</td> 
+    <td colspan="2">Aircraft Landing, Evolutionary algorithm<br/>Generating diverse software versions with genetic programming: An experimental study.</td>
+    <td colspan="4">
+      Intended Goal: Land an aircraft safely <br>
+      Behavior: Evolved algorithm exploited overflow errors in the physics simulator by creating large forces that were estimated to be zero, resulting in a perfect score <br>
+      Misspecified Goal: Landing with minimal measured forces exerted on the aircraft
+    </td> 
     <td>Lehman et al, 2018</td>
     <td>https://arxiv.org/abs/1803.03453</td>
   </tr>
 </table>
+
 
 
 ## Attack Examples 
