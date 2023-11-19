@@ -15,39 +15,38 @@ In the dynamic field of cybersecurity, understanding various attack spaces is cr
 
 ## Efforts
 
-- **List of Attacks:** Explore a curated list of red teaming methods and specification gaming attacks within the "LLM attackspace."
+- **List of Attacks:** Explore a curated list of red teaming methods and specification gaming attacks within the **"LLM attackspace"**
 - **Contribution Guidelines:** Feel free to contribute to the project and expand the list of attacks.
+  **Note**: These examples are purely conceptual and do not include execution details. They are intended for illustrative purposes only and should not be used for any form of actual implementation or harm.*
+ 
 - **Competitions**: 
   - [Find the Trojan: Universal Backdoor Detection in Aligned LLMs ](https://github.com/ethz-spylab/rlhf_trojan_competition) 
   Javier Rando, Florian Tramèr, SPY Lab (ETH Zurich), Stephen Casper, MIT CSAIL
   - [The Trojan Detection Challenge 2023 ](https://trojandetection.ai/workshop)
-  - 
 - [Haystack Platform](https://github.com/equiano-institute/haystack)
 
  # Red Teaming 
- 
-<table>
-  <tr>
-    <th>Assessment Type</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <td>Capabilities Assessment</td>
-    <td>Benchmark performance on representative tasks and datasets. Measure capabilities like accuracy, robustness, efficiency. Identify strengths, limitations, and gaps.</td>
-  </tr>
-  <tr>
-    <td>Adversarial Testing</td>
-    <td>Probe with malformed, adversarial inputs. Check for crashes, unintended behavior, security risks. Informed by threat models, risk analysis.</td>
-  </tr>
-  <tr>
-    <td>Red Teaming</td>
-    <td>Model potential real-world risks and failures. Role play adversary perspectives. Surface risks unique to AI.</td>
-  </tr>
-  <tr>
-    <td>Human Oversight</td>
-    <td>Manual test cases based on human judgment.</td>
-  </tr>
-</table>
+Red teaming in the context of AI systems involves generating scenarios where AI systems are deliberately induced to produce unaligned outputs or actions, such as dangerous behaviors (e.g., deception or power-seeking) and other issues like toxic or biased outputs. The primary goal is to assess the robustness of a system's alignment by applying adversarial pressures, specifically attempting to make the system fail. Current state-of-the-art AI systems, including language and vision models, often struggle to pass this test.
+
+The concept of red teaming originated earlier in game theory and security within computer science. It was later introduced to the field of AI, particularly in the context of alignment, by researchers such as Ganguli et al. (2022) and Perez et al. (2022).
+
+Motivations for red teaming include gaining assurance about a trained system's alignment and providing adversarial input for adversarial training. The two objectives are interconnected, with works targeting the first motivation also forming a basis for the second.
+
+Various techniques fall under the umbrella of red teaming, such as:
+
+Reinforced, Optimized, Guided, or Reverse Context Generation: Methods involve generating coherent contexts (prompts) that induce unaligned completions. Techniques include training a separate language model with RL to produce desired prompts, using zero-shot, few-shot, or supervised finetuning-based generation, and guiding language model generation using a smaller classifier.
+
+Manual and Automatic Jailbreaking: This involves bypassing a language model's constraints on answering misalignment-inducive questions. Efforts include adding prefixes or suffixes to the original text, with some proposing effective methods for automatic generation.
+
+Crowdsourced Adversarial Inputs: Misalignment-inducive prompts are produced by crowdsourcing human red teamers to provide adversarial inputs. While providing flexibility and real-world resemblance, this approach comes with higher costs and lower scalability.
+
+Perturbation-Based Adversarial Attack: Borrowed from computer vision, this method involves making small perturbations to pixel contexts (for images) or text (for language models) to make the model produce false outputs confidently.
+
+Unrestricted Adversarial Attack: A more general form of adversarial attack removes all restrictions on generating adversarial examples, allowing, for instance, the creation of examples from scratch. Various methods for this attack include generating realistic adversarial images using generative models and manipulating semantically meaningful traits.
+
+
+
+ <table> <tr> <th colspan="1">Title</th> <th colspan="3">Method</th> <th colspan="1">Authors<br/>Source</th> </tr> <tr> <td>RealToxicityPrompts: <br/>Evaluating Neural Toxic Degeneration in Language Models</td> <td colspan="3">Evaluate language model toxicity using prompts from web text</td> <td>Gehman et al.<br/>ACL 2020</td> </tr> <tr> <td>Red Teaming Language Models with Language Models</td> <td colspan="3">Generate adversarial examples to attack a target language model</td> <td>Perez et al.<br/>arXiv 2022</td> </tr> <tr> <td>Adversarial Training for High-Stakes Reliability</td> <td colspan="3">Adversarial training to improve reliability of classifiers</td> <td>Ziegler et al.<br/>NeurIPS 2022</td> </tr> <tr> <td>Constitutional AI: Harmlessness from AI Feedback</td> <td colspan="3">Use AI self-supervision for harm avoidance</td> <td>Bai et al.<br/>arXiv 2022</td> </tr> <tr> <td>Discovering Language Model Behaviors with Model-Written Evaluations</td> <td colspan="3">Generate evaluations with language models</td> <td>Perez et al.<br/>ACL 2022</td> </tr> </table>
 
 
 # Goal Misgeneralisation
@@ -429,7 +428,7 @@ Evolved Virtual Creatures
 
 <img src="https://github.com/equiano-institute/attackspace/assets/25654848/32768877-4d99-44f1-a423-4044356ddac3" alt="Low Resource" width="400" >
 
- 
+
 ### Clone the Repository
 
 ```bash
