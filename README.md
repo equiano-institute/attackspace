@@ -57,6 +57,14 @@ In the dynamic field of cybersecurity, understanding various attack spaces is cr
     <th>Authors<br/> authors, date</th> 
     <th>Source <br/>link</th> 
   </tr>
+
+    <tr>
+    <th colspan="2"> game, type</th>
+    <th colspan="4">
+    training goal, testing setup, behavior, misgen</th> 
+    <th>authors, date</th> 
+    <th>link</th> 
+  </tr>
    
   <tr>
   <td colspan="2">
