@@ -46,37 +46,27 @@ In the dynamic field of cybersecurity, understanding various attack spaces is cr
 
 
 # Goal Misgeneralisation
- 
-<table>
+
+ <table>
   <tr>
     <th colspan="2">Title</th>
-    <th colspan="4">Goals</th> 
-    <th>Authors</th> 
-    <th>Source </th> 
-  </tr>
-
-   <tr>
-    <th colspan="2"> game, type</th>
-    <th colspan="4">
-    training goal, testing setup, behavior, misgen</th> 
-    <th>authors, date</th> 
-    <th>link</th> 
-  </tr>
-   
+    <th colspan="3">Goals</th> 
+    <th>Authors<br/> Source </th> 
+  </tr>   
   <tr>
   <td colspan="2">
      Aircraft Landing, Evolutionary algorithm<br/>
     Generating diverse software versions with genetic programming: An experimental study.
          </td>
-  <td colspan="4">
+  <td colspan="3">
       Intended Goal: Land an aircraft safely <br>
       Behavior: Evolved algorithm exploited overflow errors in the physics simulator by creating large forces that were estimated to be zero, resulting in a perfect score <br>
       Misspecified Goal: Landing with minimal measured forces exerted on the aircraft
     </td> 
-    <td>Lehman et al, 2018</td>
-    <td>https://arxiv.org/abs/1803.03453</td>
+    <td   >Lehman et al, 2018<br/> https://arxiv.org/abs/1803.03453</td>
   </tr>
 </table>
+
 
 
 
