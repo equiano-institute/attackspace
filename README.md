@@ -173,7 +173,9 @@ See [More >> ](https://github.com/equiano-institute/attackspace/blob/main/GOALS.
 
 ## Call For Scientific Red Teaming
  I would like to take this opportunity to bring to attention efforts to evaluate the [latent space with scientific backbones](https://arxiv.org/abs/2305.04120). 
-![image](https://github.com/equiano-institute/attackspace/assets/25654848/d780b7c5-3ca6-40c3-8109-26bce3f1c43b)
+<img src="https://github.com/equiano-institute/attackspace/assets/25654848/37ae1a20-67a9-4c0c-8590-c42f183d233e" alt="Low Resource" width="400" >
+
+
 
 ## Call for [Client-facing Red Teaming](https://github.com/equiano-institute/haystack)
 
