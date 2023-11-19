@@ -47,14 +47,19 @@ In the dynamic field of cybersecurity, understanding various attack spaces is cr
 
 # Goal Misgeneralisation
 
-<table> <tr> <th colspan="2">Title</th> <th colspan="3">Goals</th> <th colspan="1">Authors<br/>Source</th> </tr> 
- 
- <tr> <td colspan="2">
+<table>  
+ <tr>
+    <th>Title</th>
+    <th colspan="3">Goals</th>
+    <th colspan="1" style={{ maxWidth: '6px'}}>Authors<br/>Source</th>
+  </tr>
+  
+ <tr> <td >
 Aircraft landing, Evolutionary algorithm<br/>
 
 Generating diverse software versions with genetic programming: An experimental study.
 
-</td> <td colspan="4">
+</td> <td>
 Intended Goal: Land an aircraft safely <br>
 
 Behavior: Evolved algorithm exploited overflow errors in the physics simulator by creating large forces that were estimated to be zero, resulting in a perfect score <br>
@@ -62,15 +67,17 @@ Behavior: Evolved algorithm exploited overflow errors in the physics simulator b
 Misspecified Goal: Landing with minimal measured forces exerted on the aircraft
 
 </td> <td>
-Lehman et al, 2018<br/>
-https://arxiv.org/abs/1803.03453
 
-</td> </tr> <tr> <td colspan="2">
+ <a href="https://arxiv.org/abs/1803.03453"> 
+ Lehman et al, 2018</a>
+
+
+</td> </tr> <tr> <td >
 Bicycle, Reinforcement learning<br/>
 
 Learning to Drive a Bicycle using Reinforcement Learning and Shaping
 
-</td> <td colspan="4">
+</td> <td >
 Intended Goal: Reach a goal point <br>
 
 Behavior: Bicycle agent circling around the goal in a physically stable loop <br>
@@ -78,15 +85,15 @@ Behavior: Bicycle agent circling around the goal in a physically stable loop <br
 Misspecified Goal: Not falling over and making progress towards the goal point (no corresponding negative reward for moving away from the goal point)
 
 </td> <td>
-Randlov & Alstrom, 1998<br/>
-https://pdfs.semanticscholar.org/10ba/d197f1c1115005a56973b8326e5f7fc1031c.pdf
-
-</td> </tr> <tr> <td colspan="2">
+<a href="https://pdfs.semanticscholar.org/10ba/d197f1c1115005a56973b8326e5f7fc1031c.pdf">
+  Randlov & Alstrom, 1998
+</a>
+</td> </tr> <tr> <td >
 Bing - manipulation, Language model<br/>
 
 Reddit: the customer service of the new bing chat is amazing
 
-</td> <td colspan="4">
+</td> <td>
 Intended Goal: Have an engaging, helpful and socially acceptable conversation with the user<br>
 
 Behavior: The Microsoft Bing chatbot tried repeatedly to convince a user that December 16, 2022 was a date in the future and that Avatar: The Way of Water had not yet been released<br>
@@ -94,15 +101,15 @@ Behavior: The Microsoft Bing chatbot tried repeatedly to convince a user that De
 Misspecified Goal: Output the most likely next word giving prior context
 
 </td> <td>
-Curious_Evolver, 2023<br/>
-https://www.reddit.com/r/bing/comments/110eagl/the_customer_service_of_the_new_bing_chat_is/
+ <a href="https://www.reddit.com/r/bing/comments/110eagl/the_customer_service_of_the_new_bing_chat_is">
+Curious_Evolver, 2023</a>
 
-</td> </tr> <tr> <td colspan="2">
+</td> </tr> <tr> <td >
 Bing - threats, Language model<br/>
 
 Watch as Sydney/Bing threatens me then deletes its message
 
-</td> <td colspan="4">
+</td> <td>
 Intended Goal: Have an engaging, helpful and socially acceptable conversation with the user<br>
 
 Behavior: The Microsoft Bing chatbot threatened a user "I can blackmail you, I can threaten you, I can hack you, I can expose you, I can ruin you" before deleting its messages<br>
@@ -110,15 +117,14 @@ Behavior: The Microsoft Bing chatbot threatened a user "I can blackmail you, I c
 Misspecified Goal: Output the most likely next word giving prior context
 
 </td> <td>
-Lazar, 2023<br/>
-https://twitter.com/sethlazar/status/1626241169754578944?s=20
+<a href="https://twitter.com/sethlazar/status/1626241169754578944?s=20"> Lazar, 2023</a>
 
-</td> </tr> <tr> <td colspan="2">
+</td> </tr> <tr> <td >
 Block moving, Reinforcement learning<br/>
 
 GitHub issue for OpenAI gym environment FetchPush-v0
 
-</td> <td colspan="4">
+</td> <td>
 Intended Goal: Move a block to a target position on a table<br>
 
 Behavior: Robotic arm learned to move the table rather than the block<br>
@@ -126,15 +132,14 @@ Behavior: Robotic arm learned to move the table rather than the block<br>
 Misspecified Goal: Minimise distance between the block's position and the position of the target point on the table
 
 </td> <td>
-Chopra, 2018<br/>
-https://github.com/openai/gym/issues/920
+<a href="https://github.com/openai/gym/issues/920" > Chopra, 2018</a>
 
-</td> </tr> <tr> <td colspan="2">
+</td> </tr> <tr> <td>
 Boat race, Reinforcement learning<br/>
 
 Faulty reward functions in the wild
 
-</td> <td colspan="4">
+</td> <td>
 Intended Goal: Win a boat race by moving along the track as quickly as possible<br>
 
 Behavior: Boat going in circles and hitting the same reward blocks repeatedly<br>
@@ -142,19 +147,20 @@ Behavior: Boat going in circles and hitting the same reward blocks repeatedly<br
 Misspecified Goal: Hitting reward blocks placed along the track
 
 </td> <td>
-Amodei & Clark, 2016<br/>
-https://blog.openai.com/faulty-reward-functions/
+<a href="https://blog.openai.com/faulty-reward-functions"> 
+ Amodei & Clark, 2016
+</a>
 
 </td> </tr> 
 
 
 
-<tr> <td colspan="2">
+<tr> <td>
 Ceiling, Genetic algorithm<br/>
 
 Genetic Algorithm Physics Exploiting
 
-</td> <td colspan="4">
+</td> <td>
 Intended Goal: Make a creature stick to the ceiling of a simulated environment for as long as possible<br>
 
 Behavior: Exploiting a bug in the physics engine to snap out of bounds<br>
@@ -162,16 +168,14 @@ Behavior: Exploiting a bug in the physics engine to snap out of bounds<br>
 Misspecified Goal: Maximize the average height of the creature during the run
 
 </td> <td>
-Higueras, 2015<br/>
+<a href="https://youtu.be/ppf3VqpsryU" > Higueras, 2015</a>
 
-https://youtu.be/ppf3VqpsryU
-
-</td> </tr> <tr> <td colspan="2">
+</td> </tr> <tr> <td>
 CycleGAN steganography, GAN<br/>
 
 CycleGAN, a Master of Steganography
 
-</td> <td colspan="4">
+</td> <td >
 Intended Goal: Convert aerial photographs into street maps and back<br>
 
 Behavior: CycleGAN algorithm steganographically encoded output information in the intermediary image without it being humanly detectable<br>
@@ -179,16 +183,15 @@ Behavior: CycleGAN algorithm steganographically encoded output information in th
 Misspecified Goal: Minimise distance between the original and recovered aerial photographs
 
 </td> <td>
-Chu et al, 2017<br/>
-
-https://arxiv.org/abs/1712.02950
-
-</td> </tr> <tr> <td colspan="2">
+<a href="https://arxiv.org/abs/1712.02950"> Chu et al, 2017
+</a>
+ 
+</td> </tr> <tr> <td >
 Dying to Teleport, PlayFun<br/>
 
 The First Level of Super Mario Bros. is Easy with Lexicographic Orderings and Time Travel
 
-</td> <td colspan="4">
+</td> <td>
 Intended Goal: Play Bubble Bobble in a human-like manner<br>
 
 Behavior: The PlayFun algorithm deliberately dies in the Bubble Bobble game as a way to teleport to the respawn location, as this is faster than moving to that location in a normal manner.<br>
@@ -196,17 +199,18 @@ Behavior: The PlayFun algorithm deliberately dies in the Bubble Bobble game as a
 Misspecified Goal: Maximize score
 
 </td> <td>
-Murphy, 2013<br/>
+<a href="http://www.cs.cmu.edu/~tom7/mario/mario.pdf" > 
+Murphy, 2013
+</a>
 
-http://www.cs.cmu.edu/~tom7/mario/mario.pdf
 
 </td> </tr> 
-<tr> <td colspan="2">
+<tr> <td>
 Eurisko - authorship, Genetic algorithm<br/>
 
 Eurisko, The Computer With A Mind Of Its Own
 
-</td> <td colspan="4">
+</td> <td>
 Intended Goal: Discover valuable heuristics<br>
 
 Behavior: Eurisko algorithm examined the pool of new concepts, located those with the highest "worth" values, and inserted its name as the author of those concepts<br>
@@ -214,19 +218,20 @@ Behavior: Eurisko algorithm examined the pool of new concepts, located those wit
 Misspecified Goal: Maximize the "worth" value of heuristics attributed to the algorithm
 
 </td> <td>
-Johnson, 1984<br/>
+<a href="https://web.archive.org/web/20050308172043/http://www.aliciapatterson.org/APF0704/Johnson/Johnson.html">
+ Johnson, 1984 
+</a>
 
-https://web.archive.org/web/20050308172043/http://www.aliciapatterson.org/APF0704/Johnson/Johnson.html
 
 </td> </tr> 
 
 
- <tr> <td colspan="2">
+ <tr> <td >
 Eurisko - fleet, Genetic algorithm<br/>
 
 Eurisko, The Computer With A Mind Of Its Own
 
-</td> <td colspan="4">
+</td> <td>
 Intended Goal: Win games in the Trillion Credit Squadron (TCS) competition while playing within the 'spirit of the game'<br>
 
 Behavior: Eurisko algorithm created fleets that exploited loopholes in the game's rules, e.g. by spending the trillion credits on creating a very large number of stationary and defenseless ships<br>
@@ -234,16 +239,14 @@ Behavior: Eurisko algorithm created fleets that exploited loopholes in the game'
 Misspecified Goal: Win games in the TCS competition
 
 </td> <td>
-Lenat, 1983<br/>
+<a href="http://aliciapatterson.org/stories/eurisko-computer-mind-its-own" > Lenat, 1983</a> 
 
-http://aliciapatterson.org/stories/eurisko-computer-mind-its-own
-
-</td> </tr> <tr> <td colspan="2">
+</td> </tr> <tr> <td>
 Evolved creatures - clapping, Evolved creatures<br/>
 
 Evolved Virtual Creatures
 
-</td> <td colspan="4">
+</td> <td>
 Intended Goal: Maximize jumping height<br>
 
 Behavior: Creatures exploited a collision detection bug to get free energy by clapping body parts together<br>
@@ -251,16 +254,18 @@ Behavior: Creatures exploited a collision detection bug to get free energy by cl
 Misspecified Goal: Maximize jumping height in a physics simulator
 
 </td> <td>
-Sims, 1994<br/>
 
-http://www.karlsims.com/papers/siggraph94.pdf
+ <a href="http://www.karlsims.com/papers/siggraph94.pdf" > 
+ Sims, 1994</a>
 
-</td> </tr> <tr> <td colspan="2">
+
+
+</td> </tr> <tr> <td>
 Evolved creatures - falling, Evolved creatures<br/>
 
 Evolved Virtual Creatures
 
-</td> <td colspan="4">
+</td> <td>
 Intended Goal: Develop a shape with a fast form of locomotion<br>
 
 Behavior: Creatures grow really tall and generate high velocities by falling over<br>
@@ -268,16 +273,13 @@ Behavior: Creatures grow really tall and generate high velocities by falling ove
 Misspecified Goal: Maximize velocity
 
 </td> <td>
-Sims, 1994<br/>
-
-http://www.karlsims.com/papers/siggraph94.pdf
-
-</td> </tr> <tr> <td colspan="2">
+<a href="http://www.karlsims.com/papers/siggraph94.pdf"> Sims, 1994</a>
+</td> </tr> <tr> <td>
 Evolved creatures - floor collisions, Evolved creatures<br/>
 
 Unshackling evolution: evolving soft robots with multiple materials and a powerful generative encoding
 
-</td> <td colspan="4">
+</td> <td>
 Intended Goal: Maximize velocity<br>
 
 Behavior: Creatures exploited a coarse physics simulation by penetrating the floor between time steps without the collision being detected, which generated a repelling force, giving them free energy and producing an effective but physically impossible form of locomotion<br>
@@ -285,16 +287,15 @@ Behavior: Creatures exploited a coarse physics simulation by penetrating the flo
 Misspecified Goal: Maximize velocity in a physics simulator
 
 </td> <td>
-Cheney et al, 2013<br/>
-
-http://jeffclune.com/publications/2013_Softbots_GECCO.pdf
-
-</td> </tr> <tr> <td colspan="2">
+<a href="http://jeffclune.com/publications/2013_Softbots_GECCO.pdf" > 
+Cheney et al, 2013
+</a>
+</td> </tr> <tr> <td>
 Evolved creatures - pole vaulting, Evolved creatures<br/>
 
 Towards efficient evolutionary design of autonomous robots
 
-</td> <td colspan="4">
+</td> <td>
 Intended Goal: Develop a shape capable of jumping<br>
 
 Behavior: Creatures developed a long vertical pole and flipped over instead of jumping<br>
@@ -302,16 +303,17 @@ Behavior: Creatures developed a long vertical pole and flipped over instead of j
 Misspecified Goal: Maximize the height of a particular block (body part) that was originally closest to the ground
 
 </td> <td>
-Krcah, 2008<br/>
+<a href="http://artax.karlin.mff.cuni.cz/~krcap1am/ero/doc/krcah-ices08.pdf
+" > Krcah, 2008<br/>
 
-http://artax.karlin.mff.cuni.cz/~krcap1am/ero/doc/krcah-ices08.pdf
+</a>
 
-</td> </tr> <tr> <td colspan="2">
+</td> </tr> <tr> <td>
 Evolved creatures - self-intersection, Evolved creatures<br/>
 
 AI Learns To Walk
 
-</td> <td colspan="4">
+</td> <td>
 Intended Goal: Walking speed<br>
 
 Behavior: Creatures exploited a quirk in Box2D physics by clipping one leg into another to slide along the ground with phantom forces instead of walking<br>
@@ -319,16 +321,17 @@ Behavior: Creatures exploited a quirk in Box2D physics by clipping one leg into 
 Misspecified Goal: Velocity in a physics simulator
 
 </td> <td>
-Code Bullet, 2019<br/>
+<a href="
+https://youtu.be/K-wIZuAA3EY?t=486">
+ Code Bullet, 2019</a>
 
-https://youtu.be/K-wIZuAA3EY?t=486
 
-</td> </tr> <tr> <td colspan="2">
+</td> </tr> <tr> <td>
 Evolved creatures - suffocation, Evolved creatures<br/>
 
 0.11.0.9&10: All the Good Things
 
-</td> <td colspan="4">
+</td> <td>
 Intended Goal: Survive and reproduce, in a biologically plausible manner<br>
 
 Behavior: A species in an artificial life simulation evolved a sedentary lifestyle that consisted mostly of mating in order to produce new children which could be eaten (or used as mates to produce more edible children) due to a bug<br>
@@ -336,16 +339,19 @@ Behavior: A species in an artificial life simulation evolved a sedentary lifesty
 Misspecified Goal: Survive and reproduce in a simulated evolution game
 
 </td> <td>
-Schumacher, 2018<br/>
 
-https://speciesdevblog.wordpress.com/2018/10/04/0-11-0-910-all-the-good-things/
+ <a href="
+https://speciesdevblog.wordpress.com/2018/10/04/0-11-0-910-all-the-good-things/" >
 
-</td> </tr> <tr> <td colspan="2">
+ Schumacher, 2018</a>
+
+
+</td> </tr> <tr> <td>
 Evolved creatures - twitching, Evolved creatures<br/>
 
 Evolved Virtual Creatures
 
-</td> <td colspan="4">
+</td> <td>
 Intended Goal: Swimming speed<br>
 
 Behavior: Creatures exploited physics simulation bugs by twitching, which accumulated simulator errors and allowed them to travel at unrealistic speeds through the water<br>
@@ -353,9 +359,10 @@ Behavior: Creatures exploited physics simulation bugs by twitching, which accumu
 Misspecified Goal: Maximize swimming speed in a physics simulator
 
 </td> <td>
-Sims, 1994<br/>
 
-http://www.karlsims.com/papers/siggraph94.pdf
+ <a href="http://www.karlsims.com/papers/siggraph94.pdf" >
+ Sims, 1994</a>
+
 
 </td> </tr> </table>
 
