@@ -11,14 +11,14 @@ AttackSpace is an open-source project that aims to compile a comprehensive list 
 
 ## Introduction
 
-Attack Space refers to the realm of potential adversarial scenarios and techniques within the field of artificial intelligence. This repository is dedicated to compiling information on various methods, including trojan attacks, red teaming, and instances of goal misgeneralization.
+Attack Space refers to the landscape of potential adversarial scenarios and techniques that can be used for exploits on LLMs. This repository is dedicated to compiling a high-level survey on various methods, including trojan attacks, red teaming, and instances of goal misgeneralization. **Note**: These examples are purely conceptual and do not include execution details. They are intended for illustrative purposes only and should not be used for any form of actual implementation or harm.*
+
 
 ## Efforts
 
 - **List of Attacks:** Explore a curated list of red teaming methods and specification gaming attacks within the **"LLM attackspace"**
 - **Contribution Guidelines:** Feel free to contribute to the project and expand the list of attacks.
-  **Note**: These examples are purely conceptual and do not include execution details. They are intended for illustrative purposes only and should not be used for any form of actual implementation or harm.*
-- Groups: [ML Commons](https://groups.google.com/a/mlcommons.org/g/ai-safety) 
+ - Groups: [ML Commons](https://groups.google.com/a/mlcommons.org/g/ai-safety) 
 - **Competitions**: 
   - [Find the Trojan: Universal Backdoor Detection in Aligned LLMs ](https://github.com/ethz-spylab/rlhf_trojan_competition) 
   Javier Rando, Florian Tramèr, SPY Lab (ETH Zurich), Stephen Casper, MIT CSAIL
