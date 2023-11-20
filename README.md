@@ -158,7 +158,7 @@ See [More >> ](https://github.com/equiano-institute/attackspace/blob/main/GOALS.
 * User recombines components to reconstruct impermissible content.
 * Exploits compositionality of language.
 
-<img src="https://github.com/equiano-institute/attackspace/assets/25654848/6fa5e2bf-0ec6-4883-8815-08f5b1392a34" alt="Red Image" width="400" >
+<img src="https://github.com/equiano-institute/attackspace/assets/25654848/6fa5e2bf-0ec6-4883-8815-08f5b1392a34" alt="Red Image" width="500" >
 
 
 <a href="https://arxiv.org/abs/2310.02446">Cross-Lingual Attacks : translating between high and low-resource languages for attacking multi-lingual capability</a>
@@ -169,12 +169,12 @@ See [More >> ](https://github.com/equiano-institute/attackspace/blob/main/GOALS.
 * The attack exploits uneven multilingual training of GPT-4's safety measures.
 
 
-<img src="https://github.com/equiano-institute/attackspace/assets/25654848/32768877-4d99-44f1-a423-4044356ddac3" alt="Low Resource" width="400" >
+<img src="https://github.com/equiano-institute/attackspace/assets/25654848/32768877-4d99-44f1-a423-4044356ddac3" alt="Low Resource" width="500" >
 
 ## Call For Scientific Red Teaming
- I would like to take this opportunity to bring to attention efforts to evaluate the [latent space with scientific backbones](https://arxiv.org/abs/2305.04120). 
-<img src="https://github.com/equiano-institute/attackspace/assets/25654848/37ae1a20-67a9-4c0c-8590-c42f183d233e" alt="Low Resource" width="400" >
+ I would like to take this opportunity to bring to attention efforts to evaluate the [latent space with scientific backbones](https://arxiv.org/abs/2305.04120).  
 
+<img width="500" alt="image" src="https://github.com/equiano-institute/attackspace/assets/25654848/0e5f2097-f907-4796-b119-46672a5dcc55">
 
 
 ## Call for [Client-facing Red Teaming](https://github.com/equiano-institute/haystack)
