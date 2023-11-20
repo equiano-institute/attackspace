@@ -1,6 +1,6 @@
 # AttackSpace
 
-AttackSpace is an open-source curated comprehensive list of LLM Security methods. 
+AttackSpace is an open-source curated comprehensive list of LLM security methods and safeguarding techniques. 
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -11,9 +11,9 @@ AttackSpace is an open-source curated comprehensive list of LLM Security methods
 
 ## Introduction
 
-Attack Space refers to the landscape of potential adversarial scenarios and techniques that can be used for exploits on LLMs. This repository is dedicated to compiling a high-level survey on various methods, including trojan attacks, red teaming, and instances of goal misgeneralization. 
-**Note**: These examples are purely conceptual and do not include execution details. They are intended for illustrative purposes only and should not be used for any form of actual implementation or harm. The goal is to develop an understanding of which exploits are possible on LLMs and what safeguards are possible with red teaming.  
-*
+Attack Space refers to the landscape of potential adversarial scenarios and techniques that can be used for exploits on AI systems. This repository is dedicated to compiling a high-level survey on various methods, including trojan attacks, red teaming, and instances of goal misgeneralization. 
+**Note**: These examples are purely conceptual and do not include execution details. They are intended for illustrative purposes only and should not be used for any form of actual implementation or harm. The goal is to develop an understanding and survey of which exploits are possible on LLMs and what safeguards are possible with red teaming and other methods.*
+
 
 
 ## Efforts
