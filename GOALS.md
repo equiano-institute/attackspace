@@ -1,5 +1,8 @@
 # Goal Misgeneralisation
 
+Various examples (and lists of examples) of unintended behaviors in AI systems have appeared in recent years. One interesting type of unintended behavior is finding a way to game the specified objective: generating a solution that literally satisfies the stated objective but fails to solve the problem according to the human designer’s intent. This occurs when the objective is poorly specified, and includes reinforcement learning agents hacking the reward function, evolutionary algorithms gaming the fitness function, etc.
+
+While ‘specification gaming’ is a somewhat vague category, it is particularly referring to behaviors that are clearly hacks, not just suboptimal solutions. A classic example is OpenAI’s demo of a reinforcement learning agent in a boat racing game going in circles and repeatedly hitting the same reward targets instead of actually playing the game[from vkrakovna.wordpress.com](https://vkrakovna.wordpress.com/2018/04/02/specification-gaming-examples-in-ai/)
 
 <table>  
  <tr>
